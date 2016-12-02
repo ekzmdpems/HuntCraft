@@ -13,7 +13,7 @@ animation::animation()
 	_play(FALSE)
 {
 }
-
+asdkmglmlwamlkfaslklmkfalmasdlk
 asdfasdfasdfasdfasdfasdfasdfasdfasdfsadf
 animation::~animation()
 {
