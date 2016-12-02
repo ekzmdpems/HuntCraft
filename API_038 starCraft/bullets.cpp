@@ -19,6 +19,7 @@ void bullet::release(void)
 }
 
 test cccc
+asdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf
 void bullet::update(void)
 {
 	move();
