@@ -18,6 +18,7 @@ void bullet::release(void)
 	_vBullet.clear();
 }
 
+test cccc
 void bullet::update(void)
 {
 	move();
