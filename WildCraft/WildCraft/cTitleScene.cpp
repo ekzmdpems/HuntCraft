@@ -13,6 +13,16 @@ cTitleScene::~cTitleScene()
 
 const HRESULT cTitleScene::Init(DWORD dwFlag)
 {
+	GAME_DATA->SetSavePath("./Setting.ini");
+	GAME_DATA->AddData("Section1", "Korl", "315");
+	GAME_DATA->AddData("Section1", "Korl1", "315");
+	GAME_DATA->AddData("Section1", "Korl2", "315");
+	GAME_DATA->AddData("Section1", "Korl3", "315");
+
+	GAME_DATA->AddData("Section2", "Korl1", "315");
+	GAME_DATA->AddData("Section2", "Korl2", "315");
+	GAME_DATA->AddEnd();
+
 	return S_OK;
 }
 void cTitleScene::Update()
