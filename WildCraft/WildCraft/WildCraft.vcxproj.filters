@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="D3D GameFramework">
+      <UniqueIdentifier>{914d7b76-77d8-4b58-9709-67a82d2df829}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapCreator">
+      <UniqueIdentifier>{9fc69bb7-edb0-4eb0-b77f-311173276ad1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WindowsSetting">
+      <UniqueIdentifier>{cda792aa-b39f-4c82-b51a-7fb945e8d19c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WindowsSetting\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="WindowsSetting\ETC">
+      <UniqueIdentifier>{f3ff0ffe-6dc1-45e3-921e-bbcba639caae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapCreator\Scene">
+      <UniqueIdentifier>{ff8b5c72-f821-47cd-b348-81764d948383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GamePlay">
+      <UniqueIdentifier>{f8e8d9da-2d40-4b6f-af44-e98bd8f22032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GamePlay\Scenes">
+      <UniqueIdentifier>{81e60b24-a680-4a47-a54d-43dfb5e3b3d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GamePlay\Scenes\PlayScene">
+      <UniqueIdentifier>{cbe31531-74ab-47b9-a313-984d1d533215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\1. DataTypes">
+      <UniqueIdentifier>{8bcdd66d-f281-494c-a2f8-e52102ff4716}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\2. Managers">
+      <UniqueIdentifier>{0e0b0ae2-fc5b-4bd5-85fe-0d859408af0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\3. Control">
+      <UniqueIdentifier>{28410ff2-7087-41c1-838a-33c0d1873a4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\4. Objects">
+      <UniqueIdentifier>{987495c3-cc85-437b-9e84-63d591afeeab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\2. Managers\BaseManagers">
+      <UniqueIdentifier>{97cd19a1-81cf-4abd-8ab9-283861e2236e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\2. Managers\ResourceManagers">
+      <UniqueIdentifier>{4b0746c5-36f3-4f1e-9a62-caa1865b19ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\1. DataTypes\BoundBox">
+      <UniqueIdentifier>{89caa728-3ebf-4adf-b972-c1fbb9ede979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\2. Managers\BaseManagers\DeviceManager">
+      <UniqueIdentifier>{3a8b1a9f-71c2-44e1-a7e6-4e940b35c257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\2. Managers\BaseManagers\KeyInputAssister">
+      <UniqueIdentifier>{7244a7a9-c498-4a05-8e4f-6feb0988f1c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\2. Managers\BaseManagers\TimeManager">
+      <UniqueIdentifier>{1cfef24a-9749-4bed-8a91-ba3c21d8eb55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\2. Managers\GameManager">
+      <UniqueIdentifier>{02dd8d9a-501f-495f-b8b1-d34a1bb2cb59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\2. Managers\GameManager\SceneManager">
+      <UniqueIdentifier>{5bd36a80-0b1c-43e7-abdc-9496ea62277a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\2. Managers\ResourceManagers\TextureManager">
+      <UniqueIdentifier>{988cddd3-f892-4917-a048-91dddd6d2c24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\2. Managers\ResourceManagers\ShaderManager">
+      <UniqueIdentifier>{b3030720-05c7-4bcb-8351-d6a2762b1465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\1. DataTypes\Object">
+      <UniqueIdentifier>{a79cced5-03b7-4748-bcb7-67009416a8d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\1. DataTypes\MTLnTex">
+      <UniqueIdentifier>{e0b942f9-bb4a-468a-a349-cc67866541a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\4. Objects\SurfaceObject">
+      <UniqueIdentifier>{d3fabc5c-5ff0-4bc2-beab-30070065068d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\4. Objects\StaticObject">
+      <UniqueIdentifier>{578cdc1d-4eae-4273-8184-1dd51f24aaad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\4. Objects\DynamicObject">
+      <UniqueIdentifier>{648adac1-7876-4816-98e3-98eb899bfee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\4. Objects\DynamicObject\DynamicObjectManager">
+      <UniqueIdentifier>{3e972b9b-916f-4ec7-82e2-4d99ad93f57f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\4. Objects\StaticObject\StaticObjectManager">
+      <UniqueIdentifier>{0cef4365-4eba-49fd-85bf-1e114b18c71f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\4. Objects\SurfaceObject\SurfaceManager">
+      <UniqueIdentifier>{1bfac02f-bf9c-46b2-993a-cbaf3323e8ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\3. Control\Actions">
+      <UniqueIdentifier>{17f9a5b6-a74d-4ac3-b301-124aefda7101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\3. Control\Actions\%2a Base">
+      <UniqueIdentifier>{26e5a6bc-11aa-484d-bc50-aa855a6b9e99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\3. Control\Actions\Move">
+      <UniqueIdentifier>{3c8242f1-b3f6-4fad-b07f-b97fda5b066e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\3. Control\Actions\Repeat">
+      <UniqueIdentifier>{5507e097-f68d-4890-b914-849b6c161d2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\3. Control\Actions\Sequence">
+      <UniqueIdentifier>{5e582388-5878-4b70-bbab-2431addc6249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\3. Control\Camera">
+      <UniqueIdentifier>{cea0f252-0fe2-48c3-a488-879e514c44e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\3. Control\Culling">
+      <UniqueIdentifier>{b096ac2a-2071-4bae-bd10-cc70fd508d0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\3. Control\Picking">
+      <UniqueIdentifier>{fe38d2e8-ff39-4aa8-8980-0c2adca397c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\3. Control\WayFinder">
+      <UniqueIdentifier>{a5bb623d-1bcd-4cb3-8e78-ded59e122fa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\3. Control\TargetController">
+      <UniqueIdentifier>{3042743e-4aec-4742-9d7d-6bcb4d858c0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\4. Objects\DynamicObject\%2a Base">
+      <UniqueIdentifier>{3d2cb0b1-2de6-438c-a600-eaaac6fd83b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\4. Objects\%2a GameObject">
+      <UniqueIdentifier>{5cb7a799-6033-406f-bfa6-12bf8fd05366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GamePlay\Scenes\TitleScene">
+      <UniqueIdentifier>{7c74ad52-2daa-4254-8b28-95d334fc360f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\3. Control\WayFinder\Astar">
+      <UniqueIdentifier>{e17216f3-325e-40a8-9528-56899fa18d20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\3. Control\WayFinder\Dijkstra">
+      <UniqueIdentifier>{da2ec597-fd01-49fa-9758-3b8193609831}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\3. Control\Culling\Frustum">
+      <UniqueIdentifier>{e5cb4918-30b7-4394-a18d-6a6af007ebf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\2. Managers\GameManager\GameDataManager">
+      <UniqueIdentifier>{a529216c-e77c-4767-83dc-b7ebd61e2aeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\2. Managers\GameManager\UIManager">
+      <UniqueIdentifier>{8f9ecdc7-f21f-4cae-8dde-718f2bf42a61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\2. Managers\ResourceManagers\FontManager">
+      <UniqueIdentifier>{8fcb4181-c5be-4245-9692-7317594de9a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\2. Managers\GameManager\UIManager\UI">
+      <UniqueIdentifier>{2b229c5b-7775-4607-aee2-c1ca841b3bc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\2. Managers\GameManager\UIManager\UI\%2a Base">
+      <UniqueIdentifier>{4933d0cb-17dc-4770-986b-7f60cb948916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\2. Managers\GameManager\UIManager\UI\TextView">
+      <UniqueIdentifier>{6d74f702-4e2d-40ca-9d1f-379f475dccce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\2. Managers\GameManager\UIManager\UI\Button">
+      <UniqueIdentifier>{8ffaf2ed-0e3e-40fe-8a2c-83b306ee1dbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D GameFramework\2. Managers\GameManager\UIManager\UI\ImageView">
+      <UniqueIdentifier>{4935719f-ae46-4611-9354-00e2f301c24b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>WindowsSetting\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseDataTypesNFunctions.h">
+      <Filter>D3D GameFramework\1. DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>D3D GameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoundBox.h">
+      <Filter>D3D GameFramework\1. DataTypes\BoundBox</Filter>
+    </ClInclude>
+    <ClInclude Include="cDeviceManager.h">
+      <Filter>D3D GameFramework\2. Managers\BaseManagers\DeviceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cObject.h">
+      <Filter>D3D GameFramework\1. DataTypes\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="cKeyInputAssister.h">
+      <Filter>D3D GameFramework\2. Managers\BaseManagers\KeyInputAssister</Filter>
+    </ClInclude>
+    <ClInclude Include="cSceneManager.h">
+      <Filter>D3D GameFramework\2. Managers\GameManager\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cTextureManager.h">
+      <Filter>D3D GameFramework\2. Managers\ResourceManagers\TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cMTLnTEX.h">
+      <Filter>D3D GameFramework\1. DataTypes\MTLnTex</Filter>
+    </ClInclude>
+    <ClInclude Include="cSurfaceObjectManager.h">
+      <Filter>D3D GameFramework\4. Objects\SurfaceObject\SurfaceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cDynamicObject.h">
+      <Filter>D3D GameFramework\4. Objects\DynamicObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cDynamicObjectManager.h">
+      <Filter>D3D GameFramework\4. Objects\DynamicObject\DynamicObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cAllocateHierarchy.h">
+      <Filter>D3D GameFramework\4. Objects\DynamicObject\%2a Base</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>WindowsSetting\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="WildCraft.h">
+      <Filter>WindowsSetting\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="cMainGame.h">
+      <Filter>WindowsSetting</Filter>
+    </ClInclude>
+    <ClInclude Include="cAction.h">
+      <Filter>D3D GameFramework\3. Control\Actions\%2a Base</Filter>
+    </ClInclude>
+    <ClInclude Include="cMapCreateScene.h">
+      <Filter>MapCreator\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="cTitleScene.h">
+      <Filter>GamePlay\Scenes\TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cGamePlayScene.h">
+      <Filter>GamePlay\Scenes\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cRay.h">
+      <Filter>D3D GameFramework\3. Control\Picking</Filter>
+    </ClInclude>
+    <ClInclude Include="cWayFinder.h">
+      <Filter>D3D GameFramework\3. Control\WayFinder</Filter>
+    </ClInclude>
+    <ClInclude Include="cStaticObject.h">
+      <Filter>D3D GameFramework\4. Objects\StaticObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cSurfaceObject.h">
+      <Filter>D3D GameFramework\4. Objects\SurfaceObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cShaderManager.h">
+      <Filter>D3D GameFramework\2. Managers\ResourceManagers\ShaderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cActionMove.h">
+      <Filter>D3D GameFramework\3. Control\Actions\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="cActionSeq.h">
+      <Filter>D3D GameFramework\3. Control\Actions\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="cActionRepeat.h">
+      <Filter>D3D GameFramework\3. Control\Actions\Repeat</Filter>
+    </ClInclude>
+    <ClInclude Include="cCamera.h">
+      <Filter>D3D GameFramework\3. Control\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="cTargetController.h">
+      <Filter>D3D GameFramework\3. Control\TargetController</Filter>
+    </ClInclude>
+    <ClInclude Include="cFontManager.h">
+      <Filter>D3D GameFramework\2. Managers\ResourceManagers\FontManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cGameObject.h">
+      <Filter>D3D GameFramework\4. Objects\%2a GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cUIObject.h">
+      <Filter>D3D GameFramework\2. Managers\GameManager\UIManager\UI\%2a Base</Filter>
+    </ClInclude>
+    <ClInclude Include="cUIButton.h">
+      <Filter>D3D GameFramework\2. Managers\GameManager\UIManager\UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="cUITextView.h">
+      <Filter>D3D GameFramework\2. Managers\GameManager\UIManager\UI\TextView</Filter>
+    </ClInclude>
+    <ClInclude Include="cUIImageView.h">
+      <Filter>D3D GameFramework\2. Managers\GameManager\UIManager\UI\ImageView</Filter>
+    </ClInclude>
+    <ClInclude Include="cGameDataManager.h">
+      <Filter>D3D GameFramework\2. Managers\GameManager\GameDataManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cFrustumCulling.h">
+      <Filter>D3D GameFramework\3. Control\Culling\Frustum</Filter>
+    </ClInclude>
+    <ClInclude Include="cUIManager.h">
+      <Filter>D3D GameFramework\2. Managers\GameManager\UIManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cStaticObjectManager.h">
+      <Filter>D3D GameFramework\4. Objects\StaticObject\StaticObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimeManager.h">
+      <Filter>D3D GameFramework\2. Managers\BaseManagers\TimeManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cBoundBox.cpp">
+      <Filter>D3D GameFramework\1. DataTypes\BoundBox</Filter>
+    </ClCompile>
+    <ClCompile Include="cDeviceManager.cpp">
+      <Filter>D3D GameFramework\2. Managers\BaseManagers\DeviceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cObject.cpp">
+      <Filter>D3D GameFramework\1. DataTypes\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cKeyInputAssister.cpp">
+      <Filter>D3D GameFramework\2. Managers\BaseManagers\KeyInputAssister</Filter>
+    </ClCompile>
+    <ClCompile Include="cSceneManager.cpp">
+      <Filter>D3D GameFramework\2. Managers\GameManager\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cTextureManager.cpp">
+      <Filter>D3D GameFramework\2. Managers\ResourceManagers\TextureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cMTLnTEX.cpp">
+      <Filter>D3D GameFramework\1. DataTypes\MTLnTex</Filter>
+    </ClCompile>
+    <ClCompile Include="cSurfaceObjectManager.cpp">
+      <Filter>D3D GameFramework\4. Objects\SurfaceObject\SurfaceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cDynamicObject.cpp">
+      <Filter>D3D GameFramework\4. Objects\DynamicObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cDynamicObjectManager.cpp">
+      <Filter>D3D GameFramework\4. Objects\DynamicObject\DynamicObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cAllocateHierarchy.cpp">
+      <Filter>D3D GameFramework\4. Objects\DynamicObject\%2a Base</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>WindowsSetting\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="WildCraft.cpp">
+      <Filter>WindowsSetting\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="cMainGame.cpp">
+      <Filter>WindowsSetting</Filter>
+    </ClCompile>
+    <ClCompile Include="cAction.cpp">
+      <Filter>D3D GameFramework\3. Control\Actions\%2a Base</Filter>
+    </ClCompile>
+    <ClCompile Include="cMapCreateScene.cpp">
+      <Filter>MapCreator\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="cTitleScene.cpp">
+      <Filter>GamePlay\Scenes\TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cGamePlayScene.cpp">
+      <Filter>GamePlay\Scenes\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cRay.cpp">
+      <Filter>D3D GameFramework\3. Control\Picking</Filter>
+    </ClCompile>
+    <ClCompile Include="cWayFinder.cpp">
+      <Filter>D3D GameFramework\3. Control\WayFinder</Filter>
+    </ClCompile>
+    <ClCompile Include="cStaticObject.cpp">
+      <Filter>D3D GameFramework\4. Objects\StaticObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cSurfaceObject.cpp">
+      <Filter>D3D GameFramework\4. Objects\SurfaceObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cShaderManager.cpp">
+      <Filter>D3D GameFramework\2. Managers\ResourceManagers\ShaderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cActionMove.cpp">
+      <Filter>D3D GameFramework\3. Control\Actions\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="cActionSeq.cpp">
+      <Filter>D3D GameFramework\3. Control\Actions\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="cActionRepeat.cpp">
+      <Filter>D3D GameFramework\3. Control\Actions\Repeat</Filter>
+    </ClCompile>
+    <ClCompile Include="cCamera.cpp">
+      <Filter>D3D GameFramework\3. Control\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="cTargetController.cpp">
+      <Filter>D3D GameFramework\3. Control\TargetController</Filter>
+    </ClCompile>
+    <ClCompile Include="cFontManager.cpp">
+      <Filter>D3D GameFramework\2. Managers\ResourceManagers\FontManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cGameObject.cpp">
+      <Filter>D3D GameFramework\4. Objects\%2a GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cUIObject.cpp">
+      <Filter>D3D GameFramework\2. Managers\GameManager\UIManager\UI\%2a Base</Filter>
+    </ClCompile>
+    <ClCompile Include="cUIButton.cpp">
+      <Filter>D3D GameFramework\2. Managers\GameManager\UIManager\UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="cUITextView.cpp">
+      <Filter>D3D GameFramework\2. Managers\GameManager\UIManager\UI\TextView</Filter>
+    </ClCompile>
+    <ClCompile Include="cUIImageView.cpp">
+      <Filter>D3D GameFramework\2. Managers\GameManager\UIManager\UI\ImageView</Filter>
+    </ClCompile>
+    <ClCompile Include="cGameDataManager.cpp">
+      <Filter>D3D GameFramework\2. Managers\GameManager\GameDataManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cFrustumCulling.cpp">
+      <Filter>D3D GameFramework\3. Control\Culling\Frustum</Filter>
+    </ClCompile>
+    <ClCompile Include="cUIManager.cpp">
+      <Filter>D3D GameFramework\2. Managers\GameManager\UIManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cStaticObjectManager.cpp">
+      <Filter>D3D GameFramework\4. Objects\StaticObject\StaticObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseDataTypesNFunctions.cpp">
+      <Filter>D3D GameFramework\1. DataTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimeManager.cpp">
+      <Filter>D3D GameFramework\2. Managers\BaseManagers\TimeManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WildCraft.rc">
+      <Filter>WindowsSetting\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="System\GameIcon.png">
+      <Filter>WindowsSetting\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+#pragma once
+#include <bitset>
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// 키 매니저
+// 우리 게임에서 누적키는 필요없을 듯
+// 
+// 
+// 
+//
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+class cKeyInputAssister
+{
+private:
+	SINGLETONE(cKeyInputAssister);
+private:
+	std::bitset<256> _keyUp;
+	std::bitset<256> _keyDown;
+public:
+	const bool isOnceKeyDown(const int key);	//키가 한번만 눌렸냐?
+	const bool isOnceKeyUp(const int key);		//키가 한번 눌렀다 띄었냐?
+	const bool isStayKeyDown(const int key);	//키가 계속 눌려 있냐?
+	const bool isToggleKey(const int key);		//키가 토글이냐?
+};
+#define KEY_ASSISTER cKeyInputAssister::GetInstance()
+
