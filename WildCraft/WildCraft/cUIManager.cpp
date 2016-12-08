@@ -137,7 +137,7 @@ void cUIManager::render()
 	{
 		D3DXMatrixTranslation(&matT, m_Parent->GetMoveX(), m_Parent->GetMoveY(), 0);
 	}
-	if (e_type != BUTTON)
+	if (e_type != MAIN)
 	{
 		if (isClicked)
 		{
