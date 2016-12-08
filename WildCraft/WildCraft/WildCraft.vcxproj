@@ -186,6 +186,7 @@
     <ClInclude Include="cUITextView.h" />
     <ClInclude Include="cWayFinder.h" />
     <ClInclude Include="Resource.h" />
+    <ClInclude Include="skyDome.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="WildCraft.h" />
@@ -229,6 +230,7 @@
     <ClCompile Include="cUIObject.cpp" />
     <ClCompile Include="cUITextView.cpp" />
     <ClCompile Include="cWayFinder.cpp" />
+    <ClCompile Include="skyDome.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

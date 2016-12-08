@@ -61,3 +61,17 @@ const DWORD WIN_SIZE_WIDTH = 1280;
 const DWORD WIN_SIZE_HEIGHT = 800;
 const DWORD WIN_STYLE = WS_CAPTION | WS_SYSMENU | WS_MINIMIZEBOX;
 #pragma endregion
+
+
+
+//맵툴용 헤더
+struct SKYBOXVERTEX
+{
+	D3DXVECTOR3 p;
+	DWORD		diffuse;
+	D3DXVECTOR2 t;
+};
+
+#define RadToDeg( radian ) ((radian) * 57.29577951f)
+#define DegToRad( degrees ) ((degrees) * 0.017453293f)
+#define D3DFVF_SKYBOXVERTEX (D3DFVF_XYZ | D3DFVF_DIFFUSE | D3DFVF_TEX1)

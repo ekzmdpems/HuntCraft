@@ -167,6 +167,9 @@
     <Filter Include="D3D GameFramework\2. Managers\GameManager\UIManager\UI\ImageView">
       <UniqueIdentifier>{4935719f-ae46-4611-9354-00e2f301c24b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="MapCreator\엔진">
+      <UniqueIdentifier>{d81d9a72-f26b-4b44-8e57-10f3d9898be5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Resource.h">
@@ -295,6 +298,9 @@
     <ClInclude Include="cTimeManager.h">
       <Filter>D3D GameFramework\2. Managers\BaseManagers\TimeManager</Filter>
     </ClInclude>
+    <ClInclude Include="skyDome.h">
+      <Filter>MapCreator\엔진</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cBoundBox.cpp">
@@ -416,6 +422,9 @@
     </ClCompile>
     <ClCompile Include="cTimeManager.cpp">
       <Filter>D3D GameFramework\2. Managers\BaseManagers\TimeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="skyDome.cpp">
+      <Filter>MapCreator\엔진</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
